@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.icons{
+    height: 18px;
+    width: 18px;
+}
+
+.header_socials{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: right; 
+    width: 50%;
+}

@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-</head>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Landing Page</title>
+        
+    </head>
+
     <body>
-        <header>
 
-            <div>   
+        <div>
+            
+            <header>
 
-                <div>
-                    <img src="imgs/icons/mail.svg" alt="mail_contact">
-                    <span>info@youremail.com</span>
+                <div style="display: flex; justify-content: space-between; align-items: center;">   
+
+                    <div style="display: flex; width: 50%;">
+                        <div>
+                            <img class="icons" src="imgs/icons/mail.svg" alt="mail_contact">
+                            <span>info@youremail.com</span>
+                        </div>
+
+                        <div >
+                            <img class="icons" src="imgs/icons/phone.svg" alt="phone_contact">
+                            <span>(480) 555-0103</span>
+                        </div>
+                    </div>
+
+                    <ul class="header_socials">
+                        <li> 
+                            <a href=""><img src="imgs/icons/facebook_white.svg" alt="Facebook"></a>
+                        </li>
+
+                        <li> 
+                            <a href=""><img src="imgs/icons/instagram_white.svg" alt="Instagram"></a>
+                        </li>
+
+                        <li> 
+                            <a href=""><img src="imgs/icons/twitter_white.svg" alt="Twitter"></a>
+                        </li>
+
+                        <li> 
+                            <a href=""><img src="imgs/icons/youtube_white.svg" alt="Youtube"></a>
+                        </li>
+
+                    </ul>
+
                 </div>
 
-                <div>
-                    <img src="imgs/icons/phone.svg" alt="phone_contact">
-                    <span>(480) 555-0103</span>
-                </div>
+                <nav>
 
-                <ul>
-                    <li> 
-                        <a href=""><img src="imgs/icons/facebook_white.svg" alt="Facebook"></a>
-                    </li>
-                    <li> 
-                        <a href=""><img src="imgs/icons/instagram_white.svg" alt="Instagram"></a>
-                    </li>
-                    <li> 
-                        <a href=""><img src="imgs/icons/twitter_white.svg" alt="Twitter"></a>
-                    </li>
-                    <li> 
-                        <a href=""><img src="imgs/icons/youtube_white.svg" alt="Youtube"></a>
-                    </li>
-                </ul>
+                    <ul>
 
-            </div>
+                        <li>
+                            <a href="">HOME</a>
+                        </li>
 
-            <nav>
+                        <li>
+                            <a href="">ABOUT</a>
+                        </li>
 
-                <ul>
+                        <li>
+                            <a href="">FEATURES</a>
+                        </li>
 
-                    <li>
-                        <a href="">HOME</a>
-                    </li>
+                    </ul>
 
-                    <li>
-                        <a href="">ABOUT</a>
-                    </li>
+                    <div>
+                        <img src="" alt="">
+                    </div>
 
-                    <li>
-                        <a href="">FEATURES</a>
-                    </li>
+                    <ul>
 
-                </ul>
+                        <li>
+                            <a href="">TEAM</a>
+                        </li>
 
-                <div>
-                    <img src="" alt="">
-                </div>
+                        <li>
+                            <a href="">CONTACT</a>
+                        </li>
 
-                <ul>
+                        <li>
+                            <a href="">DOWNLOAD</a>
+                        </li>
 
-                    <li>
-                        <a href="">TEAM</a>
-                    </li>
+                    </ul>
 
-                    <li>
-                        <a href="">CONTACT</a>
-                    </li>
+                </nav>
 
-                    <li>
-                        <a href="">DOWNLOAD</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-        </header>
-
-        <main>
+            </header>
 
             <section>
 
@@ -91,8 +106,15 @@
                     <span>Download App Now</span>
 
                     <div>
-                        <img src="imgs/content/app_store.png" alt="">
-                        <img src="imgs/content/google_play.png" alt="">
+
+                        <a href="">
+                            <img src="imgs/content/app_store.png" alt="">
+                        </a>
+
+                        <a href="">
+                            <img src="imgs/content/google_play.png" alt="">
+                        </a>
+                        
                     </div>
 
                 </div>
@@ -100,6 +122,10 @@
                 <img src="imgs/content/app_image0.png" alt="">
 
             </section>
+
+        </div>
+
+        <main>
 
             <section>
 
@@ -298,6 +324,7 @@
         <footer>
 
             <div>
+
                 <div>
 
                     <div>
@@ -317,6 +344,7 @@
                     <a href="#">+880 321 655 9985</a>
 
                 </div>
+
             </div>
 
             <div>
@@ -326,18 +354,23 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
                
                 <ul>
+
                     <li>
                         <a href="#"><img src="imgs/icons/facebook_white.svg" alt="Facebook"></a>
                     </li>
+
                     <li>
                         <a href="#"><img src="imgs/icons/instagram_white.svg" alt="Instagram"></a>
                     </li>
+
                     <li>
                         <a href="#"><img src="imgs/icons/twitter_white.svg" alt="Twitter"></a>
                     </li>
+
                     <li>
                         <a href="#"><img src="imgs/icons/youtube_white.svg" alt="Youtube"></a>
                     </li>
+
                 </ul>
 
             </div>
@@ -347,18 +380,23 @@
                 <h5>QUICK LINK</h5>
 
                 <ul>
+
                     <li>
                         <a href="">About</a>
                     </li>
+
                     <li>
                         <a href="">Features</a>
                     </li>
+
                     <li>
                         <a href="">Screenshot</a>
                     </li>
+
                     <li>
                         <a href="">Blog</a>
                     </li>   
+
                 </ul>
 
 
@@ -391,7 +429,7 @@
                 <p>Copyright 2021 .Ojjomedia. All Right Reserved.</p>
 
             </div>            
-            
+
         </footer>
 
     </body>
