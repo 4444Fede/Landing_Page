@@ -6,15 +6,44 @@ body{
     font-family: "Josefin Sans", sans-serif;
 }
 
+header, section, footer{
+    padding: 0 8%;
+}
+
+.hero_background{
+    z-index: -1;
+    background-image: url(../imgs/background/background.jpg);
+}
+
 .icons{
     height: 18px;
     width: 18px;
 }
 
+.header_contact_socials{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header_contacts{
+    display: flex;
+    width: 60%; 
+    gap: 25px;
+}
+
+.contact_container{
+    display: flex;
+    align-items: center; 
+    color: #ffffff;
+    font-size: 16px;
+    gap: 10px;
+}
+
 .header_socials{
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: right; 
-    width: 50%;
+    width: 40%;
 }
