@@ -22,6 +22,9 @@ header{
     background-size: cover;
 }
 
+a{
+    text-decoration: none;
+}
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
     
@@ -119,4 +122,47 @@ header{
         display: none;
     }
     
+    .hero_section{
+        display: flex; 
+        flex-direction: column; 
+        gap: 30px; 
+        margin-top: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero_section_content{
+        background-color: #ffffff;
+        width: 100%;
+    }
+
+    .hero_section_title{
+        font-size: 25px;
+        font-weight: 600;
+        color: #5956E9;
+        line-height: 37px;
+        padding: 0 5%;
+    }
+    .hero_section_p{
+        color: #6C6C72;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 5%;
+    }
+    .hero_section_download_span{
+        color: #232233;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        padding: 0 5%;
+    }
+    .hero_section_download_links{
+        display: flex;
+        gap: 10px;
+        padding: 15px 5%;
+    }
+    .hero_section_image{
+        width: 85%;
+        margin-bottom: 50px;
+    }
 }
