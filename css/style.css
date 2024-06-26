@@ -6,18 +6,22 @@ body{
     font-family: "Josefin Sans", sans-serif;
 }
 
-header, section, footer{
-    padding: 0 8%;
-}
-
-.hero_background{
-    z-index: -1;
-    background-image: url(../imgs/background/background.jpg);
-}
-
 .icons{
     height: 18px;
     width: 18px;
+}
+
+header, section, footer{
+    padding: 0 5%;
+}
+
+header{
+    padding-top: 30px;
+}
+
+.hero_background{
+    background-image: url(../imgs/background/background.jpg);
+    background-size: cover;
 }
 
 .header_contact_socials{
@@ -28,7 +32,7 @@ header, section, footer{
 
 .header_contacts{
     display: flex;
-    width: 60%; 
+    width: 85%; 
     gap: 25px;
 }
 
@@ -42,8 +46,23 @@ header, section, footer{
 
 .header_socials{
     list-style: none;
+    margin: 0;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: right; 
-    width: 40%;
+    width: 15%;
+}
+
+
+
+    
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+    
+    .header_contact_socials{
+        display: none;
+    }
+    
 }
