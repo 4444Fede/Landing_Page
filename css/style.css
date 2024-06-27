@@ -236,6 +236,29 @@ a{
 
 }
 
+/**      SECOND SECTION     **/
+
+.second_section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(../imgs/background/background_phone.jpg);
+    background-size: cover;
+    color:#ffffff;
+}
+
+.features_title{
+    margin: 20px 0 10px 0;
+}
+
+.image_features{
+    width: 70%;
+    margin: 35px 0 50px 0;
+}
+
+.features_container{
+    padding-top: 25px;
+}
+
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
     
