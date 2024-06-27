@@ -96,7 +96,6 @@ a{
         padding: 25px 10px;
         box-shadow: 0px 1px 10px 0px #0000001A;
         border-radius: 5px;
-    
     }
     
     .logo{
@@ -131,9 +130,19 @@ a{
         align-items: center;
     }
 
+    .hero_section_border{
+        border: 10px solid #7572FF;
+        margin: 0 0px 0 10px;
+        z-index: 1;
+        max-width: 350px;
+    }
+
     .hero_section_content{
-        background-color: #ffffff;
         width: 100%;
+        background-color: #fff;
+        padding: 20px 0;
+        margin: 10px 0 10px -20px;
+        z-index: 1;
     }
 
     .hero_section_title{
@@ -143,12 +152,14 @@ a{
         line-height: 37px;
         padding: 0 5%;
     }
+
     .hero_section_p{
         color: #6C6C72;
         font-size: 16px;
         line-height: 24px;
         padding: 0 5%;
     }
+
     .hero_section_download_span{
         color: #232233;
         font-size: 20px;
@@ -156,11 +167,13 @@ a{
         line-height: 30px;
         padding: 0 5%;
     }
+
     .hero_section_download_links{
         display: flex;
         gap: 10px;
         padding: 15px 5%;
     }
+
     .hero_section_image{
         width: 85%;
         margin-bottom: 50px;
