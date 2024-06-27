@@ -26,156 +26,221 @@ a{
     text-decoration: none;
 }
 
+.header_contact_socials{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header_contacts{
+    display: flex;
+    width: 85%; 
+    gap: 25px;
+}
+
+.contact_container{
+    display: flex;
+    align-items: center; 
+    color: #ffffff;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.header_socials{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: right; 
+    width: 15%;
+}
+
+.navbar{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    gap: 10px;
+}
+
+.navbar_list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    width: 100%;
+}
+
+.left_list{
+    justify-content: flex-start;
+}
+
+.rigth_list{
+    justify-content: flex-end;
+}
+
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 25px 10px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 90%;
+    height: 20%;
+}
+
+.download_button{
+    background-color: #5956E9;
+    border: 1px solid #5956E9;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 100%;
+    height: 34px;
+    font-size: 10px;
+}
+
+.header_contact_socials{
+    display: none;
+}
+
+/**    HERO SECTION    **/
+
+.hero_section{
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px; 
+    margin-top: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_section_border{
+    border: 10px solid #7572FF;
+    margin: 0 0px 0 15px;
+    z-index: 1;
+}
+
+.hero_section_content{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    margin: 10px 0 10px -25px;
+    z-index: 1;
+}
+
+.hero_section_title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #5956E9;
+    line-height: 37px;
+    padding: 0 5%;
+}
+
+.hero_section_p{
+    color: #6C6C72;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 5%;
+}
+
+.hero_section_download_span{
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 0 5%;
+}
+
+.hero_section_download_links{
+    display: flex;
+    gap: 10px;
+    padding: 15px 5%;
+}
+
+.hundred_porcent_images{
+    width: 100%;
+    height: 100%;
+}
+
+.hero_section_image{
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+
+/**   SECTIONS   **/
+
+.section_title_container{
+    text-align: center;
+    width: 100%;
+}
+
+.sections_title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.sections_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/** SECTION 1 **/
+
+.about_title{
+    color:#232233
+}
+
+.about_content{
+    color: #6C6C72;
+}
+
+.qualities_container{
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 4%;
+    margin-bottom: 25px;
+}
+
+.qualities_check_image{
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.qualities_content{
+    padding-left: 3%;
+}
+
+.qualities_title{
+    color: #232233;
+    margin: 20px 0 0 0;
+}
+
+.qualities_text{
+    color: #6C6C72;
+
+}
+
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
     
-    .header_contact_socials{
-        display: flex; 
-        justify-content: space-between; 
-        align-items: center;
-    }
-    
-    .header_contacts{
-        display: flex;
-        width: 85%; 
-        gap: 25px;
-    }
-    
-    .contact_container{
-        display: flex;
-        align-items: center; 
-        color: #ffffff;
-        font-size: 16px;
-        gap: 10px;
-    }
-    
-    .header_socials{
-        list-style: none;
-        margin: 0;
-        display: flex;
-        gap: 15px;
-        justify-content: right; 
-        width: 15%;
-    }
-    
-    .navbar{
-        background-color: #ffffff;
-        width: 100%;
-        display: flex;
-        margin-top: 30px;
-        height: 40px;
-        align-items: center;
-        justify-content: space-between;
-        border-radius: 6px;
-        gap: 10px;
-    }
-    
-    .navbar_list{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        padding: 0 1%;
-        width: 100%;
-    }
-    
-    .left_list{
-        justify-content: flex-start;
-    }
-    
-    .rigth_list{
-        justify-content: flex-end;
-    }
-    
-    .logo_container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-color: white;
-        padding: 25px 10px;
-        box-shadow: 0px 1px 10px 0px #0000001A;
-        border-radius: 5px;
-    }
-    
-    .logo{
-        width: 90%;
-        height: 20%;
-    }
-    
-    .download_button{
-        background-color: #5956E9;
-        border: 1px solid #5956E9;
-        border-radius: 6px;
-        color: #ffffff;
-        width: 100%;
-        height: 34px;
-        font-size: 10px;
-    }
-    
-    .header_contact_socials{
-        display: none;
-    }
-
     nav ul li a{
         display: none;
     }
     
-    .hero_section{
-        display: flex; 
-        flex-direction: column; 
-        gap: 30px; 
-        margin-top: 22px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero_section_border{
-        border: 10px solid #7572FF;
-        margin: 0 0px 0 10px;
-        z-index: 1;
-        max-width: 350px;
-    }
-
-    .hero_section_content{
-        width: 100%;
-        background-color: #fff;
-        padding: 20px 0;
-        margin: 10px 0 10px -20px;
-        z-index: 1;
-    }
-
-    .hero_section_title{
-        font-size: 25px;
-        font-weight: 600;
-        color: #5956E9;
-        line-height: 37px;
-        padding: 0 5%;
-    }
-
-    .hero_section_p{
-        color: #6C6C72;
-        font-size: 16px;
-        line-height: 24px;
-        padding: 0 5%;
-    }
-
-    .hero_section_download_span{
-        color: #232233;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 30px;
-        padding: 0 5%;
-    }
-
-    .hero_section_download_links{
-        display: flex;
-        gap: 10px;
-        padding: 15px 5%;
-    }
-
-    .hero_section_image{
-        width: 85%;
-        margin-bottom: 50px;
-    }
 }
