@@ -16,6 +16,7 @@ nav ul li a{
 ul{
     list-style: none;
 }
+
 .icons{
     height: 18px;
     width: 18px;
@@ -24,9 +25,11 @@ ul{
 header, section, footer{
     padding: 0 5%;
 }
+
 header{
     padding-top: 1px;
 }
+
 .hero_background{
     background-image: url(../imgs/background/background.jpg);
     background-size: cover;
@@ -35,6 +38,8 @@ header{
 a{
     text-decoration: none;
 }
+
+/**     NAVBAR     **/
 
 .header_contact_socials{
     display: flex; 
@@ -123,6 +128,35 @@ a{
     display: none;
 }
 
+
+/**    FONT STANDARD STYLES   **/
+
+.section_title_container{
+    text-align: center;
+    width: 100%;
+}
+
+.titles{
+    margin: 15px 0 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+
+.subtitles{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.text{
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
 /**    HERO SECTION    **/
 
 .hero_section{
@@ -183,33 +217,6 @@ a{
 }
 
 
-/**   SECTIONS   **/
-
-.section_title_container{
-    text-align: center;
-    width: 100%;
-}
-
-.section_titles{
-    margin: 15px 0 0 0;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 37.5px;
-}
-
-.section_subtitles{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-}
-
-.section_text{
-    margin: 20px 0 0 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
 /** ABOUT OUR APP SECTION  **/
 
 .about_title{
@@ -264,6 +271,7 @@ a{
     margin: 6px 0 10px 0;
 
 }
+
 
 /**      FEATURES SECTION     **/
 
@@ -338,4 +346,18 @@ a{
 
 .socials_separator{
     border-right: 1px solid #6C6C72; 
+}
+
+
+/**    FOOTER     **/
+
+
+footer{
+    background-color: #232233;
+}
+
+.footer_contacs{
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px 5px #0000002e;
 }
