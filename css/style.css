@@ -275,6 +275,10 @@ a{
     color:#ffffff;
 }
 
+.features_image_container{
+    text-align: center;
+}
+
 .features_title{
     margin: 20px 0 10px 0;
 }
