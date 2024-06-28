@@ -3,9 +3,19 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, span{
     font-family: "Josefin Sans", sans-serif;
 }
 
+nav ul li a{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
 .icons{
     height: 18px;
     width: 18px;
@@ -47,7 +57,6 @@ a{
 }
 
 .header_socials{
-    list-style: none;
     margin: 0;
     display: flex;
     gap: 15px;
@@ -68,7 +77,6 @@ a{
 }
 
 .navbar_list{
-    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -141,17 +149,12 @@ a{
 }
 
 .hero_section_title{
-    font-size: 25px;
-    font-weight: 600;
     color: #5956E9;
-    line-height: 37px;
     padding: 0 5%;
 }
 
 .hero_section_p{
     color: #6C6C72;
-    font-size: 16px;
-    line-height: 24px;
     padding: 0 5%;
 }
 
@@ -187,19 +190,25 @@ a{
     width: 100%;
 }
 
-.sections_title{
+.section_titles{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+
+.section_subtitles{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
 }
 
-.sections_text{
+.section_text{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-/** SECTION 1 **/
+/** ABOUT OUR APP SECTION  **/
 
 .about_title{
     color:#232233
@@ -237,12 +246,12 @@ a{
 
 }
 
-/**      SECOND SECTION     **/
+/**      FEATURES SECTION     **/
 
 .second_section{
     padding-top: 30px;
     padding-bottom: 50px;
-    background-image: url(../imgs/background/background_phone.jpg);
+    background-image: url(../imgs/background/background.jpg);
     background-size: cover;
     color:#ffffff;
 }
@@ -261,10 +270,49 @@ a{
 }
 
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
-    
-    nav ul li a{
-        display: none;
-    }
-    
+/**    OUR TEAM SECTION      **/
+
+.third_section{
+    padding-top: 40px;
+}
+
+.team_card_container{
+    width: 100%; 
+    box-shadow: 0px 1px 10px 0px #0000001A; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.teammate_title{
+    margin: 45px 0 0 0;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+}
+
+.teammate_subtitle{
+    margin: 5px 0 0 0;
+    color: #6C6C72;
+
+}
+
+.teammate_description{
+    margin: 15px 0 0 0 ;
+    color: #6C6C72;
+}
+
+.teammate_socials{
+    display: flex;  
+    width: 100%; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 0 25px 0; 
+}
+
+.socials_spacing{
+    padding: 0 7%;
+}
+
+.socials_separator{
+    border-right: 1px solid #6C6C72; 
 }
