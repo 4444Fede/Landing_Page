@@ -17,34 +17,65 @@ ul{
     list-style: none;
 }
 
-.icons{
-    height: 18px;
-    width: 18px;
-}
 
 header, section, footer{
     padding: 0 5%;
 }
 
-header{
-    padding-top: 1px;
-}
-
-.hero_background{
-    background-image: url(../imgs/background/background.jpg);
-    background-size: cover;
-}
 
 a{
     text-decoration: none;
 }
 
-/**     NAVBAR     **/
+/**    FONT STANDARD STYLES   **/
+
+.section_title_container{
+    text-align: center;
+    width: 100%;
+}
+
+.titles{
+    margin: 15px 0 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+
+.subtitles{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.text{
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.hero_background{
+    background-image: url(../imgs/background/background.jpg);
+    background-size: cover;
+}
+/**     HEADER     **/
+
+
+header{
+    padding-top: 1px;
+}
+
+.header_icons{
+    height: 18px;
+    width: 18px;
+}
 
 .header_contact_socials{
-    display: flex; 
     justify-content: space-between; 
     align-items: center;
+    display: none;
 }
 
 .header_contacts{
@@ -53,7 +84,7 @@ a{
     gap: 25px;
 }
 
-.contact_container{
+.contact_container_header{
     display: flex;
     align-items: center; 
     color: #ffffff;
@@ -122,38 +153,6 @@ a{
     width: 100%;
     height: 34px;
     font-size: 10px;
-}
-
-.header_contact_socials{
-    display: none;
-}
-
-
-/**    FONT STANDARD STYLES   **/
-
-.section_title_container{
-    text-align: center;
-    width: 100%;
-}
-
-.titles{
-    margin: 15px 0 0 0;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 37.5px;
-}
-
-.subtitles{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-}
-
-.text{
-    margin: 20px 0 0 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 
@@ -325,6 +324,7 @@ a{
 
 .third_section{
     padding-top: 40px;
+    padding-bottom: 210px;
 }
 
 .teammate_cards_container{
@@ -360,7 +360,8 @@ a{
     color: #6C6C72;
 }
 
-.teammate_socials{
+/**      SOCIALS WITH |   **/
+.socials_with_division{
     margin: 15px 0 0 0;
     display: flex;  
     width: 100%; 
@@ -377,16 +378,78 @@ a{
     border-right: 1px solid #6C6C72; 
 }
 
+.socials_icons24px{
+    width: 24px;
+    height: 24px;
+}
 
 /**    FOOTER     **/
 
 
 footer{
     background-color: #232233;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 170px;
 }
 
 .footer_contacts{
+    left: 5%;
+    right: 5%;
+    top: -154px;
+
+    position: absolute;
     background-color: #ffffff; 
     border-radius: 10px; 
-    box-shadow: 5px 5px 10px 5px #0000002e;
+    box-shadow: 5px 5px 5px 5px #0000002e;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.contact_container_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact_icon_background{
+    display: flex;
+    background-color: #5956E9;
+    border-radius: 100%;
+    border: 1px solid #5956E9;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact_icon{
+    width: 20px;
+    height: 20px;
+}
+
+.contact_division{
+    width: 60%;
+    border: 2px solid #232233;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.footer_contact_links {
+    color: #232233;
+}
+
+.footer_contact_links:hover {
+    text-decoration-color: #5956E9;
+    color: #5956E9;
+    text-decoration: underline;
 }
