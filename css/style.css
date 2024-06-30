@@ -243,13 +243,17 @@ a{
 
 .about_qualities_container{
     margin-top: 25px;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    gap: 25px;
 }
+
 .qualities_container{
     box-shadow: 5px 5px 10px 5px #0000002e;
     border-radius: 10px;
     display: flex;
     padding: 0 4%;
-    margin-bottom: 25px;
 }
 
 .qualities_check_image{
@@ -276,6 +280,7 @@ a{
 /**      FEATURES SECTION     **/
 
 .second_section{
+    margin-top: 60px;
     padding-top: 30px;
     padding-bottom: 50px;
     background-image: url(../imgs/background/background.jpg);
@@ -284,21 +289,36 @@ a{
 }
 
 .features_image_container{
+    display: flex;
     text-align: center;
-}
-
-.features_title{
-    margin: 20px 0 10px 0;
-}
-
-.image_features{
-    width: 70%;
-    margin: 35px 0 50px 0;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 30px;
 }
 
 .features_container{
-    padding-top: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.features_title{
+    margin: 0;
+}
+
+.features_text{
+    margin: 0;
+    width: 70%;
+}
+
+
+.image_features{
+    width: 70%;
+}
+
 
 
 /**    OUR TEAM SECTION      **/
@@ -306,6 +326,14 @@ a{
 .third_section{
     padding-top: 40px;
 }
+
+.teammate_cards_container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 35px;
+}
+
 
 .team_card_container{
     width: 100%; 
@@ -333,6 +361,7 @@ a{
 }
 
 .teammate_socials{
+    margin: 15px 0 0 0;
     display: flex;  
     width: 100%; 
     justify-content: center; 
