@@ -212,7 +212,7 @@ header{
 }
 
 .hero_section_image{
-    width: 85%;
+    width: 50%;
     margin-bottom: 50px;
 }
 
@@ -242,7 +242,7 @@ header{
 }
 
 .about_image{
-    width: 80%;
+    width: 55%;
 }
 
 .about_qualities_container{
@@ -323,7 +323,7 @@ header{
 
 
 .image_features{
-    width: 70%;
+    width: 50%;
 }
 
 
@@ -368,8 +368,8 @@ header{
     color: #6C6C72;
 }
 
-/**      SOCIALS WITH |   **/
-.socials_with_division{
+
+.teammate_socials{
     margin: 15px 0 0 0;
     display: flex;  
     width: 100%; 
@@ -474,5 +474,24 @@ footer{
     font-size: 31.25px;
     font-weight: 700;
     line-height: 47.25px;
-    margin: 0;
+    margin: 0 0 10px 0;
+}
+
+.footer_socials{
+    margin: 35px 0 0 0;
+    display: flex;  
+    width: 100%; 
+    align-items: center; 
+    padding: 0;
+}
+
+.socials_spacing{
+    padding: 0 10%;
+}
+
+.facebook_spacing{
+    padding: 0 10% 0 0;
+}
+.socials_separator{
+    border-right: 1px solid #6C6C72; 
 }
