@@ -495,3 +495,27 @@ footer{
 .socials_separator{
     border-right: 1px solid #6C6C72; 
 }
+
+.footer_second_container{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.quick_links_list{
+    padding: 0;
+    margin: 0;
+}
+
+ul.quick_links_list li{
+    padding: 12px 0 0 0;
+}
+
+.quick_links_a{
+    color: #ffffff;
+}
+
+.quick_links_a:hover{
+    text-decoration-color:#5956E9 ;
+    text-decoration: underline;
+    color: #5956E9;
+}
