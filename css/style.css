@@ -231,14 +231,13 @@ header{
     align-items: center;
     width: 100%;
     background-color: white;
-    padding: 25px 10px;
+    padding: 25px 15px;
     box-shadow: 0px 1px 10px 0px #0000001A;
     border-radius: 5px;
 }
 
 .logo{
-    width: 90%;
-    height: 20%;
+    width: 145px;
 }
 
 .download_button{
@@ -258,7 +257,9 @@ header{
     display: flex; 
     flex-direction: column; 
     gap: 30px; 
-    margin-top: 22px;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -309,13 +310,16 @@ header{
 
 .hero_section_image{
     width: 50%;
-    margin-bottom: 50px;
 }
 
 
 /** ABOUT OUR APP SECTION  **/
 .first_section{
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about_title{
@@ -329,6 +333,10 @@ header{
 
 .about_container{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about_image_container{
@@ -380,17 +388,21 @@ header{
 /**      FEATURES SECTION     **/
 
 .second_section{
-    margin-top: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: url(../imgs/background/background.jpg);
     background-size: cover;
     color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.app_features_p{
+.app_features_text{
     margin-top: 20px;
 }
+
 .features_image_container{
     display: flex;
     text-align: center;
@@ -429,6 +441,10 @@ header{
 .third_section{
     padding-top: 40px;
     padding-bottom: 210px;
+}
+
+.creative_team_text{
+    margin-top: 20px;
 }
 
 .teammate_cards_container{
@@ -681,4 +697,31 @@ ul.quick_links_list li{
 .copyright_icon{
     height: 18px;
     width: 18px;
+}
+
+
+
+@media  (min-width: 768px){
+    
+    /**    FONT STANDARD STYLES   **/
+
+
+    .section_title_container{
+        text-align: center;
+        width: 75%;
+    }
+
+    .titles{
+        margin: 0;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 47.25px;
+        
+    }
+
+
+
+    /**       CREATIVE TEAM SECTION       **/
+
+
 }
