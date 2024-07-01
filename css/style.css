@@ -441,6 +441,11 @@ header{
 .third_section{
     padding-top: 40px;
     padding-bottom: 210px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .creative_team_text{
@@ -597,14 +602,14 @@ footer{
     padding: 0;
 }
 
-.socials_spacing{
+.footer_socials_spacing{
     padding: 0 10%;
 }
 
-.facebook_spacing{
+.facebook_spacing_footer{
     padding: 0 10% 0 0;
 }
-.socials_separator{
+.footer_socials_separator{
     border-right: 1px solid #6C6C72; 
 }
 
@@ -786,6 +791,5 @@ ul.quick_links_list li{
     }
 
     /**       CREATIVE TEAM SECTION       **/
-
 
 }
