@@ -719,9 +719,37 @@ ul.quick_links_list li{
         
     }
 
+    /**   HERO SECTION  **/
+
+    .hero_section_border{
+        border: 18px solid #7572FF; 
+        margin: 0 0px 0 16px;
+    }
+
+    .hero_section_content{
+        margin: 10px 0 10px -30px;
+    }
+
+    .header_contact_socials{
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .logo{
+        width: 170px;
+    }
+
+    .hero_section{
+        flex-direction: row;
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    .hero_section_image{
+        width: 35%;
+    }
 
 
-    /**       CREATIVE TEAM SECTION       **/
 
 
 }
