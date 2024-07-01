@@ -750,6 +750,42 @@ ul.quick_links_list li{
     }
 
 
+    /**   ABOUT OUR APP  **/
+
+
+    .first_section{
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    .about_container{
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .about_image_container{
+        width: 35%;
+    }
+
+    .about_image{
+        width: 100%;
+    }
+
+    .about_qualities_container{
+        width: 65%;
+        margin: 0;
+    }
+    
+
+    /**    FEATURES SECTION     **/
+
+
+    .second_section{
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    /**       CREATIVE TEAM SECTION       **/
 
 
 }
