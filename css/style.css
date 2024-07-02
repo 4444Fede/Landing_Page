@@ -299,7 +299,11 @@ header{
 
 .hero_section_title{
     color: #5956E9;
+    margin: 0;
     padding: 0 5%;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
 }
 
 .hero_section_p{
@@ -801,12 +805,18 @@ ul.quick_links_list li{
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
-
+        padding: 0 8px;
     }
 
 
     /**   HERO SECTION  **/
-
+    .hero_section_title{
+        color: #5956E9;
+        padding: 0 5%;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 47.25px;
+    }
     .hero_section_border{
         border: 18px solid #7572FF; 
         margin: 0 0px 0 16px;
@@ -1011,4 +1021,40 @@ ul.quick_links_list li{
         font-weight: 600;
         line-height: 30px;
     }
+}
+
+
+
+@media  (min-width: 1024px){
+    
+    /**    FONT STANDARD STYLES   **/
+
+
+    /**    NAVBAR     **/
+
+
+
+    /**   HERO SECTION  **/
+
+    .hero_section_title{
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 63.48px;
+    }
+
+    /**   ABOUT OUR APP  **/
+
+
+    /**    FEATURES SECTION     **/
+
+   
+   
+    /**       CREATIVE TEAM SECTION       **/
+
+
+   
+
+    /**    FOOTER     **/
+
+   
 }
