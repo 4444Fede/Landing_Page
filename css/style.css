@@ -578,6 +578,9 @@ footer{
 
 .footer_contact_links {
     color: #232233;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .footer_contact_links:hover {
@@ -827,5 +830,47 @@ ul.quick_links_list li{
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
+    }
+
+
+    /**    FOOTER     **/
+
+    footer{
+        padding-top: 125px;
+    }
+    
+    .footer_contacts{
+        left: 4%;
+        right: 4%;
+        top: -73px;
+        width: 92%;
+        flex-direction: row;
+        padding: 20px 0;
+    }
+    
+    .contact_container_footer{
+        padding-left: 20px;
+        flex-direction: row;
+        justify-content: start;
+        gap: 20px  ;
+        width: 100%;
+    }
+    
+    .contact_icon_background{
+        margin-bottom: 0;
+    }
+
+    .footer_contact_links {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .contact_division{
+        width: 0%;
+        padding: 51px 0;
+        border: 2px solid #6C6C72;
+        border-radius: 5px;
+        margin: 0;
     }
 }
