@@ -526,6 +526,13 @@ footer{
     padding-top: 170px;
 }
 
+.footer_titles{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+
 .footer_contacts{
     left: 5%;
     right: 5%;
@@ -659,7 +666,6 @@ ul.quick_links_list li{
 .sumbit_email{
     display: flex; 
     margin-top: 40px; 
-    width: 100%; 
     background-color: #ffffff; 
     justify-content: space-between; 
     height: 50px; 
@@ -670,7 +676,7 @@ ul.quick_links_list li{
 }
 
 .sumbit_email_input{
-    width: 60%; 
+    width: 75%; 
     border: none;
 }
 
@@ -849,7 +855,7 @@ ul.quick_links_list li{
     }
     
     .contact_container_footer{
-        padding-left: 20px;
+        padding-left: 30px;
         flex-direction: row;
         justify-content: start;
         gap: 20px  ;
@@ -872,5 +878,26 @@ ul.quick_links_list li{
         border: 2px solid #6C6C72;
         border-radius: 5px;
         margin: 0;
+    }
+
+
+    .footer_containers{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px ;
+    }
+
+    .footer_second_container{
+        margin-top: 0;
+    }
+
+    .footer_third_container{
+        margin-top: 0;
+    }
+
+    .footer_titles{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
     }
 }
