@@ -315,6 +315,7 @@ header{
 
 /** ABOUT OUR APP SECTION  **/
 .first_section{
+    padding-bottom: 60px;
     padding-top: 30px;
     display: flex;
     justify-content: center;
@@ -436,6 +437,11 @@ header{
     align-items: center;
     flex-direction: column;
     gap: 12px;
+}
+
+.features_icons{
+    height: 50px;
+    width: 50px;
 }
 
 .features_title{
@@ -839,11 +845,52 @@ ul.quick_links_list li{
 
     /**    FEATURES SECTION     **/
 
-
     .second_section{
         padding-top: 110px;
         padding-bottom: 110px;
     }
+
+    .features_image_container{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 30px;
+    }
+    
+    .features_middle_row{
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .features_middle_left{
+        gap: 70px;
+    }
+
+    .features_middle_right{
+        gap: 70px;
+    }
+    
+    .features_container.features_container_mid_left{
+        text-align: right;
+        align-items: end;
+    }
+
+    .features_container.features_container_mid_right{
+        text-align: left;
+        align-items: start;
+    }
+    
+    .features_text{
+        width: 90%;
+    }
+
+    .image_features{
+        width: 215px;
+    }
+    
 
     /**       CREATIVE TEAM SECTION       **/
 
