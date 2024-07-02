@@ -760,7 +760,7 @@ ul.quick_links_list li{
 
     }
 
-    
+
     /**   HERO SECTION  **/
 
     .hero_section_border{
@@ -829,12 +829,16 @@ ul.quick_links_list li{
 
     /**       CREATIVE TEAM SECTION       **/
 
+
+    .third_section{
+        padding-bottom: 155px;
+    }
+
     .teammate_cards_container{
         flex-direction: row;
         gap: 15px;
         padding-top: 35px;
     }
-
 
     .teammate_title{
         margin: 45px 0 0 0;
