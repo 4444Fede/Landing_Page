@@ -1096,8 +1096,10 @@ ul.quick_links_list li{
 
     /**    FEATURES SECTION     **/
 
-   
-   
+    .features_middle_row{
+        gap: 50px;
+    }
+    
     /**       CREATIVE TEAM SECTION       **/
 
 
