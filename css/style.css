@@ -92,7 +92,6 @@ header{
     display: flex;
     align-items: center; 
     color: #ffffff;
-    font-size: 16px;
     gap: 10px;
 }
 
@@ -788,11 +787,11 @@ ul.quick_links_list li{
     }
 
 
-
     /**    NAVBAR     **/
 
     .navbar{
         height: 60px;
+        gap: 0px;
     }
 
     .menu{
@@ -1032,6 +1031,45 @@ ul.quick_links_list li{
 
     /**    NAVBAR     **/
 
+    .menuToggle{
+        display: none;
+    }
+
+    .navbar{
+        gap: 40px;
+    }
+
+    .navbar_links{
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    .navbar_links a{
+        color: #232233;
+    }
+
+    .navbar_links a:hover{
+        text-decoration-color: #5956E9;
+        color: #5956E9 ;
+        text-decoration: underline;
+    }
+
+    .left_list{
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .right_list{
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .logo_container{
+        width: 200px;
+        padding: 35px 15px;
+    }
 
 
     /**   HERO SECTION  **/
