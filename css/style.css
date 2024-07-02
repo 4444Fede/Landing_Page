@@ -221,7 +221,7 @@ header{
     justify-content: flex-start;
 }
 
-.rigth_list{
+.right_list{
     justify-content: flex-end;
 }
 
@@ -412,12 +412,30 @@ header{
     gap: 30px;
 }
 
+.features_middle_row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features_middle_left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features_middle_right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .features_container{
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
 }
 
 .features_title{
