@@ -1026,8 +1026,11 @@ ul.quick_links_list li{
 
 @media  (min-width: 1024px){
     
-    /**    FONT STANDARD STYLES   **/
+    /**    STANDARD STYLES   **/
 
+    .section_title_container{
+        width: 65%;
+    }
 
     /**    NAVBAR     **/
 
@@ -1081,6 +1084,14 @@ ul.quick_links_list li{
     }
 
     /**   ABOUT OUR APP  **/
+
+    .about_container{
+        gap: 50px;
+    }
+
+    .about_qualities_container{
+        width: 65%;
+    }
 
 
     /**    FEATURES SECTION     **/
