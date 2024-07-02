@@ -477,12 +477,18 @@ header{
 .teammate_subtitle{
     margin: 5px 0 0 0;
     color: #6C6C72;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 
 }
 
 .teammate_description{
     margin: 15px 0 0 0 ;
     color: #6C6C72;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 
@@ -792,4 +798,34 @@ ul.quick_links_list li{
 
     /**       CREATIVE TEAM SECTION       **/
 
+    .teammate_cards_container{
+        flex-direction: row;
+        gap: 15px;
+        padding-top: 35px;
+    }
+
+
+    .teammate_title{
+        margin: 45px 0 0 0;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    .teammate_subtitle{
+        margin: 5px 0 0 0;
+        color: #6C6C72;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    
+    }
+    
+    .teammate_description{
+        margin: 15px 0 0 0 ;
+        color: #6C6C72;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
 }
