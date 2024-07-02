@@ -507,10 +507,11 @@ header{
 
 
 .team_card_container{
-    width: 100%; 
+    width: 98%; 
     box-shadow: 0px 1px 10px 0px #0000001A; 
     border-radius: 10px;
     text-align: center;
+    padding: 0 1%;
 }
 
 .teammate_title{
@@ -935,8 +936,7 @@ ul.quick_links_list li{
     }
 
     .teammate_title{
-        margin: 45px 0 0 0;
-        font-size: 21px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 30px;
     }
@@ -1028,6 +1028,10 @@ ul.quick_links_list li{
     
     /**    STANDARD STYLES   **/
 
+    header, section, footer{
+        padding: 0 6%;
+    }
+
     .section_title_container{
         width: 65%;
     }
@@ -1102,7 +1106,16 @@ ul.quick_links_list li{
     
     /**       CREATIVE TEAM SECTION       **/
 
+    .teammate_cards_container{
+        gap: 30px;
+    }
 
+    .teammate_title{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 47.25px;
+
+    }
    
 
     /**    FOOTER     **/
