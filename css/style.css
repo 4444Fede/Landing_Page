@@ -1076,6 +1076,19 @@ ul.quick_links_list li{
 
 
     /**   HERO SECTION  **/
+    
+    .hero_section{
+        justify-content: space-around;
+
+    }
+
+    .hero_section_border{
+        width: 45%;
+    }
+
+    .hero_section_image{
+        width: 30%;
+    }
 
     .hero_section_title{
         font-size: 44px;
