@@ -615,8 +615,9 @@ footer{
 }
 
 .contact_icon{
+    text-align: center;
+    color: #ffffff;
     width: 20px;
-    height: 20px;
 }
 
 .contact_division{
