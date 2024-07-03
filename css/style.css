@@ -940,8 +940,14 @@ ul.quick_links_list li {
     font-weight: 700;
     line-height: 47.25px;
   }
+
   .hero_section_border {
     border: 18px solid #7572ff;
+    margin: 0 0px 0 26px;
+  }
+
+  .hero_section_content{
+    margin: 15px 15px 15px -40px;
   }
 
   .header_contact_socials {
@@ -1199,6 +1205,10 @@ ul.quick_links_list li {
     font-size: 44px;
     font-weight: 700;
     line-height: 63.48px;
+  }
+
+  .hero_section_content{
+    margin: 20px 20px 20px -40px;
   }
 
   /**   ABOUT OUR APP  **/
