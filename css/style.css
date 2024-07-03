@@ -221,7 +221,6 @@ header {
 
 .menu {
   position: absolute;
-  width: 162x;
   height: 250px;
   margin: -34px 0 0 -70px;
   padding: 55px 70px 20px;
@@ -919,6 +918,10 @@ ul.quick_links_list li {
     gap: 0px;
   }
 
+  .menu{
+    margin: -44px 0 0 -70px;
+  }
+
   .logo_container {
     width: 170px;
     padding: 32px 15px;
@@ -931,6 +934,8 @@ ul.quick_links_list li {
     line-height: 30px;
     padding: 0 8px;
   }
+
+  
 
   /**   HERO SECTION  **/
   .hero_section_title {
