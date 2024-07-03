@@ -520,6 +520,7 @@ header {
 }
 
 .teammate_image_border {
+  object-fit: contain;
   border-radius: 100%;
   border: 4px solid #5956e9;
   width: 198px;
@@ -642,6 +643,10 @@ header {
 }
 
 .teammate_image {
+  object-fit: cover;
+  width: 198px;
+  height: 198px;
+  border-radius: 100%;
   position: absolute;
   z-index: 3;
 }
