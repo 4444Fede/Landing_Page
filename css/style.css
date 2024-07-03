@@ -602,7 +602,7 @@ header {
 }
 
 .circular_end_third::after {
-  top: 191x;
+  top: 191px;
   left: 108px;
   transform: rotate(170deg);
   z-index: 3;
