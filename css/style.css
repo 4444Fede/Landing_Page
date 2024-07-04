@@ -30,6 +30,7 @@ footer {
 
 a {
   text-decoration: none;
+  line-height: 0;
 }
 
 /**    STANDARD STYLES   **/
@@ -60,6 +61,8 @@ a {
 }
 
 .socials_white_icons {
+  display: flex;
+  align-items: center;
   color: #ffffff;
 }
 
@@ -119,6 +122,7 @@ header {
   display: flex;
   gap: 15px;
   justify-content: right;
+  align-items: center;
   width: 15%;
 }
 
@@ -138,7 +142,6 @@ header {
 }
 
 .navbar_list {
-  padding: 0;
   margin: 0;
   display: flex;
   align-items: center;
@@ -488,7 +491,7 @@ header {
 }
 
 .image_features {
-  width: 70%;
+  width: 215px;
 }
 
 /**    OUR TEAM SECTION      **/
@@ -957,22 +960,18 @@ ul.quick_links_list li {
     gap: 70px;
   }
 
-  .features_container.features_container_mid_left {
+  .features_container_mid_left_first, .features_container_mid_left_second {
     text-align: right;
     align-items: end;
   }
 
-  .features_container.features_container_mid_right {
+  .features_container_mid_right_first, .features_container_mid_right_second {
     text-align: left;
     align-items: start;
   }
 
   .features_text {
     width: 90%;
-  }
-
-  .image_features {
-    width: 215px;
   }
 
   /**       CREATIVE TEAM SECTION       **/
@@ -1201,6 +1200,10 @@ ul.quick_links_list li {
     gap: 50px;
   }
 
+  .image_features {
+    width: 375px;
+  }
+
   /**       CREATIVE TEAM SECTION       **/
 
   .teammate_cards_container {
@@ -1258,12 +1261,12 @@ ul.quick_links_list li {
 
   .left_list{
     padding: 0;
-    padding-left: 40px;
+    padding-left: 10px;
+    justify-content: space-around;
   }
 
   .right_list{
-    padding: 0;
-    padding-right: 5px;
+    padding: 0 5px;
   }
 
   /**   HERO SECTION    **/
