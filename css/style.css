@@ -282,6 +282,7 @@ header {
 .hero_section {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   gap: 30px;
   margin-top: 0;
   padding-top: 110px;
@@ -297,14 +298,18 @@ header {
 
 .hero_section_content {
   background-color: #fff;
-  padding: 20px 0;
+  padding: 30px 10px;
   margin: 10px 10px 10px -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 25px;
 }
 
 .hero_section_title {
   color: #5956e9;
   margin: 0;
-  padding: 0 3%;
   font-size: 25px;
   font-weight: 600;
   line-height: 37.5px;
@@ -312,8 +317,11 @@ header {
 
 .hero_section_p {
   color: #6c6c72;
-  padding: 0 3%;
-  margin: 20px 0;
+}
+
+.hero_section_p_laptopl{
+  color: #6c6c72;
+  display: none;
 }
 
 .hero_section_download_span {
@@ -321,13 +329,12 @@ header {
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
-  padding: 0 3%;
 }
 
 .hero_section_download_links {
   display: flex;
   gap: 10px;
-  padding: 15px 3% 0;
+  width: 75%;
 }
 
 .download_link_images {
@@ -336,7 +343,8 @@ header {
 }
 
 .hero_section_image {
-  width: 50%;
+  width: 100%;
+  margin-right: -33%;
 }
 
 /** ABOUT OUR APP SECTION  **/
@@ -526,7 +534,8 @@ header {
   padding: 6px;
   position: relative;
   z-index: 1;
-}
+} 
+
 
 .teammate_image_border::before {
   content: "";
@@ -825,6 +834,17 @@ ul.quick_links_list li {
     line-height: 47.25px;
   }
 
+  /**  HEADER   **/
+
+  .header_contact_socials {
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .logo {
+    width: 170px;
+  }
+
   /**    NAVBAR     **/
 
   .navbar {
@@ -850,12 +870,11 @@ ul.quick_links_list li {
   }
 
   /**   HERO SECTION  **/
-  .hero_section_title {
-    color: #5956e9;
-    padding: 0 5%;
-    font-size: 31.25px;
-    font-weight: 700;
-    line-height: 47.25px;
+  
+  .hero_section {
+    flex-direction: row;
+    padding-top: 250px;
+    padding-bottom: 220px;
   }
 
   .hero_section_border {
@@ -865,25 +884,23 @@ ul.quick_links_list li {
 
   .hero_section_content {
     margin: 15px 15px 15px -40px;
+    gap: 10px;
   }
 
-  .header_contact_socials {
-    display: flex;
-    padding-top: 30px;
+  .hero_section_title {
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
   }
 
-  .logo {
-    width: 170px;
-  }
-
-  .hero_section {
-    flex-direction: row;
-    padding-top: 110px;
-    padding-bottom: 110px;
+  .hero_section_download_links {
+    width: 100%;
   }
 
   .hero_section_image {
-    width: 35%;
+    width: 50%;
+    margin-right: -15%;
+    margin-bottom: 36px;
   }
 
   /**   ABOUT OUR APP  **/
@@ -969,6 +986,16 @@ ul.quick_links_list li {
     flex-direction: row;
     gap: 15px;
     padding-top: 35px;
+  }
+
+  .teammate_image_border{
+    width: 160px;
+    height: 160px;
+  }
+
+  .teammate_image{
+    width: 160px;
+    height: 160px;
   }
 
   .teammate_title {
@@ -1105,17 +1132,20 @@ ul.quick_links_list li {
   }
 
   /**   HERO SECTION  **/
-
   .hero_section {
-    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 130px;
+    padding-bottom: 110px;
+    gap: 40px;
   }
 
   .hero_section_border {
-    width: 45%;
+    width: 59%;
   }
 
   .hero_section_image {
-    width: 30%;
+    width: 50%;
+    margin-bottom: 0;
   }
 
   .hero_section_title {
@@ -1125,9 +1155,25 @@ ul.quick_links_list li {
   }
 
   .hero_section_content {
-    margin: 20px 20px 20px -40px;
+    margin: 22px 22px 22px -60px;
+    gap: 20px;
+    padding: 30px 30px;
   }
 
+  .hero_section_p{
+    display: none;
+  }
+
+  .hero_section_p_laptop{
+    display: block;
+  }
+
+  .hero_section_download_span{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    padding-top: 20px;
+  }
   /**   ABOUT OUR APP  **/
 
   .about_container {
@@ -1148,6 +1194,16 @@ ul.quick_links_list li {
 
   .teammate_cards_container {
     gap: 30px;
+  }
+
+  .teammate_image_border{
+    width: 180px;
+    height: 180px;
+  }
+
+  .teammate_image{
+    width: 180px;
+    height: 180px;
   }
 
   .teammate_title {
@@ -1180,3 +1236,25 @@ ul.quick_links_list li {
     width: 35%;
   }
 }
+
+@media (min-width: 1440px){
+
+  .hero_section {
+    gap: 21%;
+  }
+
+  .hero_section_content {
+    margin: 32px 32px 32px -60px;
+    gap: 30px;
+  }
+
+  .hero_section_border {
+    width: 41%;
+  }
+
+  .hero_section_image {
+    width: 44%;
+    margin-bottom: 0;
+  }
+}
+
