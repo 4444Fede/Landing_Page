@@ -586,6 +586,63 @@ header {
   z-index: 2;
 }
 
+.circular_end_first::before,
+.circular_end_first::after,
+.circular_end_second::before,
+.circular_end_second::after,
+.circular_end_third::before,
+.circular_end_third::after,
+.circular_end_fourth::before,
+.circular_end_fourth::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #5956E9;
+  border-radius: 0 100% 100% 0;
+  z-index: 3;
+}
+.circular_end_first::before {
+  top: 96px;
+  left: -4px;
+  transform: rotate(90deg);
+}
+.circular_end_first::after {
+  top: -3px;
+  left: 80px;
+  transform: rotate(350deg);
+}
+.circular_end_second::before {
+  top: -4px;
+  left: 92px;
+  transform: rotate(180deg);
+}
+.circular_end_second::after {
+  top: 80px;
+  left: 191px;
+  transform: rotate(80deg);
+}
+.circular_end_third::before {
+  top: 92px;
+  left: 192px;
+  transform: rotate(270deg);
+}
+.circular_end_third::after {
+  top: 191px;
+  left: 108px;
+  transform: rotate(170deg);
+}
+.circular_end_fourth::before {
+  top: 192px;
+  left: 97px;
+  transform: rotate(360deg);
+}
+.circular_end_fourth::after {
+  top: 108px;
+  left: -3px;
+  transform: rotate(260deg);
+}
+
+
+
 .teammate_image {
   object-fit: cover;
   width: 180px;
@@ -1030,6 +1087,61 @@ ul.quick_links_list li {
     height: 160px;
   }
 
+  .circular_end_first::before,
+  .circular_end_first::after,
+  .circular_end_second::before,
+  .circular_end_second::after,
+  .circular_end_third::before,
+  .circular_end_third::after,
+  .circular_end_fourth::before,
+  .circular_end_fourth::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #5956E9;
+    border-radius: 0 100% 100% 0;
+    z-index: 3;
+  }
+  .circular_end_first::before {
+    top: 86px;
+    left: -4px;
+    transform: rotate(90deg);
+  }
+  .circular_end_first::after {
+    top: -3px;
+    left: 71px;
+    transform: rotate(353deg);
+  }
+  .circular_end_second::before {
+    top: -4px;
+    left: 82px;
+    transform: rotate(180deg);
+  }
+  .circular_end_second::after {
+    top: 70px;
+    left: 170.8px;
+    transform: rotate(77deg);
+  }
+  .circular_end_third::before {
+    top: 82px;
+    left: 172px;
+    transform: rotate(270deg);
+  }
+  .circular_end_third::after {
+    top: 171px;
+    left: 97px;
+    transform: rotate(172deg);
+  }
+  .circular_end_fourth::before {
+    top: 172px;
+    left: 86px;
+    transform: rotate(360deg);
+  }
+  .circular_end_fourth::after {
+    top: 97px;
+    left: -3px;
+    transform: rotate(262deg);
+  }
+
   .teammate_image {
     width: 160px;
     height: 160px;
@@ -1276,6 +1388,61 @@ ul.quick_links_list li {
     width: 180px;
     height: 180px;
   }
+
+  .circular_end_first::before,
+.circular_end_first::after,
+.circular_end_second::before,
+.circular_end_second::after,
+.circular_end_third::before,
+.circular_end_third::after,
+.circular_end_fourth::before,
+.circular_end_fourth::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #5956E9;
+  border-radius: 0 100% 100% 0;
+  z-index: 3;
+}
+.circular_end_first::before {
+  top: 96px;
+  left: -4px;
+  transform: rotate(90deg);
+}
+.circular_end_first::after {
+  top: -3px;
+  left: 80px;
+  transform: rotate(350deg);
+}
+.circular_end_second::before {
+  top: -4px;
+  left: 92px;
+  transform: rotate(180deg);
+}
+.circular_end_second::after {
+  top: 80px;
+  left: 191px;
+  transform: rotate(80deg);
+}
+.circular_end_third::before {
+  top: 92px;
+  left: 192px;
+  transform: rotate(270deg);
+}
+.circular_end_third::after {
+  top: 191px;
+  left: 108px;
+  transform: rotate(170deg);
+}
+.circular_end_fourth::before {
+  top: 192px;
+  left: 97px;
+  transform: rotate(360deg);
+}
+.circular_end_fourth::after {
+  top: 108px;
+  left: -3px;
+  transform: rotate(260deg);
+}
 
   .teammate_image {
     width: 180px;
