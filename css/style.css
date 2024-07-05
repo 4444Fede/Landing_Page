@@ -953,21 +953,33 @@ ul.quick_links_list li {
   }
 
   .features_middle_left {
-    gap: 70px;
+    align-self: baseline;
+    gap: 145px;
+    padding: 10px 0 5px;
   }
 
   .features_middle_right {
-    gap: 70px;
+    align-self: baseline;
+    gap: 85px;
+    padding: 10px 0 5px;
   }
 
-  .features_container_mid_left_first, .features_container_mid_left_second {
+  .features_container_mid_left{
     text-align: right;
     align-items: end;
   }
 
-  .features_container_mid_right_first, .features_container_mid_right_second {
+  .features_container_mid_right{
     text-align: left;
     align-items: start;
+  }
+
+  .features_container_mid_left_first{
+    align-self: flex-start;
+  }
+
+  .features_title {
+    width: 240px;
   }
 
   .features_text {
