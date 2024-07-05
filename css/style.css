@@ -66,15 +66,31 @@ a {
   color: #ffffff;
 }
 
-.socials_white_icons:hover {
+.socials_white_icons:hover, .socials_white_icons:active {
   color: #655ff3;
 }
+
+
+.socials_facebook_blue_white, .socials_facebook_blue_black {
+  display: flex;
+  align-items: center;
+  color: #655ff3;
+}
+
+.socials_facebook_blue_white:hover, .socials_facebook_blue_white:active {
+  color: #ffffff;
+}
+
+.socials_facebook_blue_black:hover, .socials_facebook_blue_black:active{
+  color: #232233;
+}
+
 
 .socials_black_icons {
   color: #232323;
 }
 
-.socials_black_icons:hover {
+.socials_black_icons:hover, .socials_black_icons:active {
   color: #5956e9;
 }
 
@@ -494,6 +510,7 @@ header {
 
 .image_features {
   width: 215px;
+  box-shadow: 50px 50px 100px #1c183f6b;
 }
 
 /**    OUR TEAM SECTION      **/
@@ -649,7 +666,7 @@ footer {
   position: absolute;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0px 10px 100px 0px #0000003d;
+  box-shadow: 5px 5px 70px #23223380;
   width: 90%;
 
   display: flex;
@@ -696,6 +713,10 @@ footer {
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
+}
+
+.tablet_mail{
+  display: none;
 }
 
 .footer_contact_links:hover {
@@ -849,24 +870,27 @@ ul.quick_links_list li {
     padding-top: 30px;
   }
 
-  .logo {
-    width: 170px;
-  }
+  
 
   /**    NAVBAR     **/
 
   .navbar {
     height: 60px;
     gap: 0px;
+    margin-top: 30px;
   }
 
   .menu {
     margin: -44px 0 0 -70px;
   }
 
-  .logo_container {
-    width: 170px;
-    padding: 32px 15px;
+  .logo_container{
+    width: 168px;
+    height: 90px;
+    padding: 0 17px 0 15px;
+  }
+  .logo {
+    width: 168px;
   }
 
   .download_button {
@@ -983,6 +1007,9 @@ ul.quick_links_list li {
   .features_title {
     width: 240px;
   }
+  .support_title{
+    width: 320px;
+  }
 
   .features_text {
     width: 90%;
@@ -1039,12 +1066,20 @@ ul.quick_links_list li {
   }
 
   .footer_contacts {
-    left: 4%;
-    right: 4%;
+    left: 6%;
+    right: 6%;
     top: -73px;
-    width: 92%;
+    width: 88%;
     flex-direction: row;
     padding: 20px 0;
+  }
+
+  .phone_mail{
+    display: none;
+  }
+
+  .tablet_mail{
+    display: block;
   }
 
   .contact_container_footer {
@@ -1131,18 +1166,13 @@ ul.quick_links_list li {
   }
 
   .left_list {
-    padding: 0 10px;
+    padding: 0 5px 0 10px;
     justify-content: space-between;
   }
 
   .right_list {
     padding: 0 5px 0 10px;
     justify-content: space-between;
-  }
-
-  .logo_container {
-    width: 200px;
-    padding: 35px 15px;
   }
 
   .download_button{
@@ -1212,12 +1242,30 @@ ul.quick_links_list li {
 
   /**    FEATURES SECTION     **/
 
+  .features_image_container{
+    gap: 50px;
+  }
+
   .features_middle_row {
     gap: 50px;
   }
 
   .image_features {
-    width: 375px;
+    width: 302px;
+  }
+
+  .features_title{
+    width: 100%;
+  }
+
+  .features_middle_left{
+    gap: 300px;
+    padding: 30px 0 15px;
+  }
+
+  .features_middle_right{
+    gap: 300px;
+    padding: 30px 0 15px;
   }
 
   /**       CREATIVE TEAM SECTION       **/
@@ -1288,7 +1336,7 @@ ul.quick_links_list li {
   /**   HERO SECTION    **/
 
   .hero_section {
-    gap: 21%;
+    gap: 15%;
   }
 
   .hero_section_content {
@@ -1302,6 +1350,7 @@ ul.quick_links_list li {
 
   .hero_section_image {
     width: 44%;
+    margin-right: -10%;
     margin-bottom: 0;
   }
 
@@ -1314,6 +1363,41 @@ ul.quick_links_list li {
 
   .about_image {
     width: 30%;
+  }
+
+  /**    FEATURES SECTION     **/
+
+  .features_image_container{
+    gap: 60px;
+  }
+
+  .features_middle_row {
+    gap: 60px;
+  }
+
+  .image_features {
+    width: 375px;
+  }
+
+  .features_middle_left{
+    gap: 450px;
+    padding: 30px 0 15px;
+  }
+
+  .features_middle_right{
+    gap: 450px;
+    padding: 30px 0 15px;
+  }
+
+
+
+  /** FOOTER  **/
+
+
+  .footer_contacts {
+    left: 26%;
+    right: 26%;
+    width: 48%;
   }
 
 }
